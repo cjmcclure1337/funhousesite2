@@ -1,6 +1,7 @@
 import React, {Component } from 'react';
 import {Nav, Navbar, NavbarToggler, Collapse, NavItem, Jumbotron} from 'reactstrap';
 import {NavLink} from 'react-router-dom';
+//import logo from "../images/logo.webp";
 
 class Header extends Component {
     constructor(props) {
@@ -26,8 +27,8 @@ class Header extends Component {
                         <div className="row">
                             <div className="col-8 col-md-6 col-xl-5 mx-auto text-center jumbotron-center">
                                 <div className="row">
-                                <div className="col-12">
-                                        <img className="mt-2" src={"../images/logo.webp"} alt="Funhouse Logo" />
+                                    <div className="col-12">
+                                        <img className="mt-2 funhouse-logo" src="/images/logo.webp" alt="Funhouse Logo" />
                                     </div>
                                     <div className="col-12">
                                         <h1>Funhouse Pottery</h1>

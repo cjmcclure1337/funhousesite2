@@ -154,6 +154,10 @@ p {
     padding-left: 20px;
 }
 
+.funhouse-logo {
+    border-radius: 65px;
+}
+
 .jumbotron {
     margin: 0;
     padding-top: 0px;
@@ -185,7 +189,7 @@ p {
 }
 
 .parallax {
-    background-image: url("./images/display.webp");
+    //background-image: url("public\images\display.webp");
     height: 750px;
   
     /* Parallax scrolling effect */

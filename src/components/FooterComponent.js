@@ -1,4 +1,5 @@
 import React from 'react';
+//import logo from "../images/logo.webp";
 
 function Footer() {
     return(
@@ -7,7 +8,7 @@ function Footer() {
                 <div className="row"> 
                     <div className="col-12 col-md-4">
                         <div className="media mt-3">
-                            <img className="" src="..\images\logo.webp" alt="Funhouse Logo" />
+                            <img className="funhouse-logo" src="/images/logo.webp" alt="Funhouse Logo" />
                             <div className="media-body align-self-center">
                                 <h1>Funhouse<br/>Pottery</h1>
                             </div>

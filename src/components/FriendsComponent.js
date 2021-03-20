@@ -12,7 +12,7 @@ function Friends() {
                 <div className="row mt-4">
                     <div className="col">
                         <div className="media">
-                            <img className="d-flex mr-3" src="img/atlaspot.webp" alt="Atlas Pot"/>
+                            <img className="d-flex mr-3" src="/images/atlaspot.webp" alt="Atlas Pot"/>
                             <div className="media-body align-self-center">
                                 <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
                             </div>
@@ -30,7 +30,7 @@ function Friends() {
                                     <div className="collapse show friends-body" id="trendzCard" data-parent="#accordion">
                                         <div className="card-body">
                                             <div className="media">
-                                                <img className="d-flex" src="img/trendz.webp" alt="Trendz in Marble Falls"/>
+                                                <img className="d-flex" src="/images/trendz.webp" alt="Trendz in Marble Falls"/>
                                                 <div className="media-body align-self-center">
                                                     <p className="text-center">203 Main St.<br/>Marble Falls, TX<br/>830-637-7171<br/>trendzmarblefalls.weebly.com</p>
                                                 </div>
@@ -53,7 +53,7 @@ function Friends() {
                                     <div className="collapse friends-body" id="texceteraCard" data-parent="#accordion">
                                         <div className="card-body">
                                             <div className="media">
-                                                <img className="d-flex" src="img/texcetera.webp" alt="Texcetera in Johnson City"/>
+                                                <img className="d-flex" src="/images/texcetera.webp" alt="Texcetera in Johnson City"/>
                                                 <div className="media-body align-self-center">
                                                     <p className="text-center">207 N. Nugen Ave.<br/>Johnson City, TX<br/>830-868-2419<br/>www.texcetera.net</p>
                                                 </div>
@@ -76,7 +76,7 @@ function Friends() {
                                     <div className="collapse friends-body" id="sansabaCard" data-parent="#accordion">
                                         <div className="card-body">
                                             <div className="media">
-                                                <img className="d-flex" src="img/sansaba.webp" alt="San Saba Olive Oil Company in San Saba"/>
+                                                <img className="d-flex" src="/images/sansaba.webp" alt="San Saba Olive Oil Company in San Saba"/>
                                                 <div className="media-body align-self-center">
                                                     <p className="text-center">207 East Wallace<br/>San Saba, TX<br/>325-372-4999<br/>www.sansabaoliveoilcompany.com</p>
                                                 </div>
@@ -99,7 +99,7 @@ function Friends() {
                                     <div className="collapse friends-body" id="artisansCard" data-parent="#accordion">
                                         <div className="card-body">
                                             <div className="media">
-                                                <img className="d-flex" src="img/artisans.webp" alt="Artisans in Fredericksburg"/>
+                                                <img className="d-flex" src="/images/artisans.webp" alt="Artisans in Fredericksburg"/>
                                                 <div className="media-body align-self-center">
                                                     <p className="text-center">234 West Main St.<br/>Fredericksburg, TX<br/>830-990-8160<br/>www.ArtisansTexas.com</p>
                                                 </div>

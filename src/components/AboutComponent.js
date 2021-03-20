@@ -1,17 +1,21 @@
 import React, { useState } from 'react';
 import {Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCaption} from 'reactstrap';
+//import codycarousel from "../images/slides/codycarouse.png";
+//import displaycarousel from "../images/slides/displaycarouse.png";
+//import screamcarousel from "../images/slides/screamcarouse.png";
+
 
 const slides = [
     {
-      src: './images/slides/codycarousel.png',
+      src: "/images/slides/codycarousel.png",
       altText: "The Potter"
     },
     {
-      src: './images/slides/screamcarousel.png',
+      src: "/images/slides/screamcarousel.png",
       altText: "'The Scream' Pot"
     },
     {
-      src: './images/slides/displaycarousel.png',
+      src: "/images/slides/displaycarousel.png",
       altText: "Pottery Display"
     }
   ];
@@ -77,7 +81,7 @@ function About() {
             </div>
             <div className="row my-2">
                 <div className="col text-center">
-                    <img src="img/artpot1.webp" alt="Art Pot" />
+                    <img src="/images/artpot1.webp" alt="Art Pot" />
                 </div>
             </div>
         </div>
