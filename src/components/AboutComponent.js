@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
-import {Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCaption} from 'reactstrap';
-//import codycarousel from "../images/slides/codycarouse.png";
-//import displaycarousel from "../images/slides/displaycarouse.png";
-//import screamcarousel from "../images/slides/screamcarouse.png";
+import {Carousel, CarouselItem, CarouselControl, CarouselIndicators} from 'reactstrap';
 
 
 const slides = [
