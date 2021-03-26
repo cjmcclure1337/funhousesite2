@@ -50,7 +50,6 @@ export const ART = [
         image: "talldrink.webp"
     },
     {
-    {
         id: 10,
         name: "Budding Bloom",
         image: "buddingbloom.webp"

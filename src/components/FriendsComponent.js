@@ -67,32 +67,30 @@ class Friends extends Component {
         });
 
         return (
-            <>
-                <div className="container mb-4">
-                    <div className="row mt-5">
-                        <div className="col text-center">
-                            <h2>Friends of the Funhouse</h2>
-                        </div>
+            <div className="container mb-4">
+                <div className="row mt-5">
+                    <div className="col text-center">
+                        <h2>Friends of the Funhouse</h2>
                     </div>
-                    <div className="row mt-4">
-                        <div className="col">
-                            <div className="media">
-                                <img className="d-flex mr-3" src="/images/atlaspot.webp" alt="Atlas Pot"/>
-                                <div className="media-body align-self-center">
-                                    <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
-                                </div>
+                </div>
+                <div className="row mt-4">
+                    <div className="col">
+                        <div className="media">
+                            <img className="d-flex mr-3" src="/images/atlaspot.webp" alt="Atlas Pot"/>
+                            <div className="media-body align-self-center">
+                                <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
                             </div>
                         </div>
                     </div>
-                    <div className="row mt-4">
-                        <div className="col">
-                            <Accordion>
-                                {friendsAccordion}
-                            </Accordion>
-                        </div>
+                </div>
+                <div className="row mt-4">
+                    <div className="col">
+                        <Accordion>
+                            {friendsAccordion}
+                        </Accordion>
                     </div>
                 </div>
-            </>
+            </div>
         );
     }
 }

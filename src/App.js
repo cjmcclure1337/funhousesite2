@@ -8,6 +8,8 @@ import Art from './components/ArtComponent';
 import About from './components/AboutComponent';
 import Friends from './components/FriendsComponent';
 import {FRIENDS} from "./shared/friends.js"
+import {ART} from "./shared/art.js";
+import {GALLERY} from "./shared/gallery.js"
 import './App.scss';
 
 class App extends Component {
@@ -16,6 +18,8 @@ class App extends Component {
     this.state = 
     {
       friends: FRIENDS,
+      art: ART,
+      gallery: GALLERY
     };
   }
 
@@ -26,8 +30,8 @@ class App extends Component {
                 <Header />
                 <Switch>
                     <Route path='/home' component={Home} />
-                    <Route exact path='/gallery' component={Gallery} />
-                    <Route exact path='/art' component={Art} />
+                    <Route exact path='/gallery' render={() => <Gallery gallery={this.state.gallery} />} />
+                    <Route exact path='/art' render={() => <Art art={this.state.art} />} />
                     <Route exact path='/about' component={About} />
                     <Route exact path='/friends' render={() => <Friends friends={this.state.friends} />} />
                     <Redirect to='/home' />
