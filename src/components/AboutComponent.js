@@ -31,7 +31,7 @@ function About() {
             onExited={() => setAnimating(false)}
             key={slide.src}
           >
-            <img src={slide.src} alt={slide.altText} />
+            <img src={slide.src} alt={slide.altText} className="w-100" />
           </CarouselItem>
         );
     });
