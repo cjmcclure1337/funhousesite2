@@ -7,7 +7,7 @@ import Gallery from './components/GalleryComponent';
 import Art from './components/ArtComponent';
 import About from './components/AboutComponent';
 import Friends from './components/FriendsComponent';
-import {FRIENDS} from "./friends.js"
+import {FRIENDS} from "./shared/friends.js"
 import './App.scss';
 
 class App extends Component {
