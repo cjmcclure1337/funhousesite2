@@ -50,12 +50,12 @@ class Header extends Component {
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/gallery">
-                                        <i className="fa fa-list fa-lg" /> Gallery
+                                        <i className="fa fa-list fa-lg" /> Functional Ware
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/art">
-                                        <i className="fa fa-info fa-lg" /> Art
+                                        <i className="fa fa-info fa-lg" /> Art Ware
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>

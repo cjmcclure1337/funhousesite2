@@ -35,7 +35,7 @@ class Gallery extends Component {
         
         return(
             <>
-                <div className="row">
+                <div className="row mt-5 mb-3">
                     <div className="col">
                         <h3>Ebony</h3>
                     </div>
@@ -58,7 +58,7 @@ class Gallery extends Component {
         
         return(
             <>
-                <div className="row">
+                <div className="row mt-5 mb-3">
                     <div className="col">
                         <h3>Jade</h3>
                     </div>
@@ -81,7 +81,7 @@ class Gallery extends Component {
         
         return(
             <>
-                <div className="row">
+                <div className="row mt-5 mb-3">
                     <div className="col">
                         <h3>Denim</h3>
                     </div>
@@ -109,7 +109,7 @@ class Gallery extends Component {
                         <h2>Functional Ware</h2>
                     </div>
                 </div>
-                <div className="row mt-3 mb-5">
+                <div className="row mt-3">
                     <ButtonGroup type="checkbox" className="col-md-8  mx-auto" id="glazeCheckboxes">
                         <Button type="checkbox" onClick={() => this.toggleFilter("ebony")} className={"btn-ebony" + ((this.state.active.ebony) ? " active" : "")}>
                             Ebony
