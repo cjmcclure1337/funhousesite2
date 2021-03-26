@@ -1,5 +1,5 @@
 import React from 'react';
-//import logo from "../images/logo.webp";
+import {Link} from 'react-router-dom';
 
 function Footer() {
     return(
@@ -17,11 +17,11 @@ function Footer() {
                     <div className="col-4 col-sm-3 offset-1">
                         <h1>Links</h1>
                         <ul className="list-unstyled">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="shop.html">Shop</a></li>
-                            <li><a href="cart.html">Cart</a></li>
-                            <li><a href="friends.html">Friends</a></li>
-                            <li><a href="about.html">About the Potter</a></li>
+                            <li><Link to='/home'>Home</Link></li>
+                            <li><Link to='/gallery'>Functional Ware Gallery</Link></li>
+                            <li><Link to='/art'>Art Ware Gallery</Link></li>
+                            <li><Link to='/friends'>Friends of the Funhouse</Link></li>
+                            <li><Link to='/about'>About the Potter</Link></li>
                         </ul>
                     </div>
                     <div className="col">
