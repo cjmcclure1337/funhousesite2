@@ -1,3 +1,7 @@
+# Funhouse Pottery
+
+A second draft of the Funhouse Pottery site, this time implemented in React. Many of the components were implemented as loops based on data pulled from seperate array docs as a pseudo-database. The intent is that if this were actually being implemented, most of the ifrastructure is there that the data could be pulled from an actual database, which could be more easily maintained by the user. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
